@@ -1,0 +1,42 @@
+*, ::before , ::after {
+  box-sizing: border-box;
+}
+body,section,div ,article,ul,li{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: -moz-linear-gradient(black,green,black);
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.logo img {   
+  width : 5rem;
+}
+.main_container {
+  display: flex;
+}
+.character_imgs_section {
+  width: 55%;
+  max-height: 130vh;
+  overflow-y: scroll;
+}
+.character_imgs {
+  width : 30%;
+  margin-left: 3%;
+  cursor: pointer;
+  border: 1px solid yellow;
+
+}
+.character_imgs:hover,
+.character_imgs:focus {
+  border: 1px solid rgb(255, 30, 0);
+}
+
+.dispcription_section { 
+  padding-top: 10rem;
+}
+.charactername_h2 { color: white; }
