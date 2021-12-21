@@ -21,7 +21,7 @@ body {
 }
 .character_imgs_section {
   width: 55%;
-  max-height: 130vh;
+  max-height: 110vh;
   overflow-y: scroll;
 }
 .character_imgs {
@@ -33,10 +33,21 @@ body {
 }
 .character_imgs:hover,
 .character_imgs:focus {
-  border: 1px solid rgb(255, 30, 0);
+  border: none;
+  width : 50%;
+
 }
 
 .dispcription_section { 
-  padding-top: 10rem;
+  padding-left: 9%;
 }
-.charactername_h2 { color: white; }
+.charactername_h2 { 
+  color: white;
+  font-size: 5rem;
+  font-family: cursive;
+}
+.dispcription_para {
+  color : white;
+  font-weight : 800;
+  text-align: center;
+}
