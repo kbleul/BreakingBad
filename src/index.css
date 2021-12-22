@@ -99,7 +99,7 @@ margin-top: 8%;
   }
 
 @media (max-width : 750px ) {
-  body { font-size: 10px; }
+  body { font-size: 10px; background-color: green; }
   .charactername_h2 { 
     font-size: 1.8rem;
     text-align: center;
