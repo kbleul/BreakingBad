@@ -36,10 +36,12 @@ const Imgfirstdiscription = () => {
     return (
         <section className="dispcription_section">
         <h2 className="charactername_h2">{characters.name}</h2>
-        <p className="dispcription_para">{characters.birthday}</p>
-        <p className="dispcription_para">{characters.appearance}</p>
-        <p className="dispcription_para">{characters.nickname}</p>
-        <p className="dispcription_para">{characters.portrayed}</p>
+        <p className="dispcription_para">Birthday : {characters.birthday}</p>
+        <p className="dispcription_para">Apperance : Seasons {characters.appearance}</p>
+        <p className="dispcription_para">Nuckname : {characters.nickname}</p>
+        <p className="dispcription_para">Prtrayed By - {characters.portrayed}</p>
+        <p className="dispcription_para"><i>Nuckname : {characters.status}</i></p>
+        <hr/>
         <ul id="occupation">
         </ul>
         

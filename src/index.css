@@ -19,17 +19,37 @@ body {
 .main_container {
   display: flex;
 }
+#loadingmain_container {
+  justify-content: center;
+  align-items: center;
+  height : 60vh;
+}
+.loadingimg {
+  width : 25%;
+  height: 15vh;
+}
 .character_imgs_section {
   width: 55%;
   max-height: 110vh;
   overflow-y: scroll;
 }
+#character_imgs_section {  
+  width: 55%;
+  max-height: 110vh;
+  overflow: none;  }
+
 .character_imgs {
   width : 30%;
   margin-left: 3%;
   cursor: pointer;
   border: 1px solid yellow;
 
+}
+#character_imgs {
+  width: 50%;
+margin-left: 23%;
+cursor: pointer;
+margin-top: 8%;
 }
 .character_imgs:hover,
 .character_imgs:focus {
@@ -50,4 +70,51 @@ body {
   color : white;
   font-weight : 800;
   text-align: center;
+}
+
+.searchsection {
+    width: 40%;
+  margin-left: 7.5%;
+  margin-bottom: 2%;
+}
+.searchinput {
+  width: 100%;
+  padding: .4rem;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+.backbutton {
+  border: none;
+  background-color : inherit;
+  display: block;
+  float: right;
+  margin-right: 6%;
+  }
+
+@media (max-width : 750px ) {
+  body { font-size: 10px; }
+  .charactername_h2 { 
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .searchsection { margin-left: 1.5%; }
+  .searchinput {  font-size: 1rem;  }
+  .character_imgs_section {    width : 60%;   }
+  .dispcription_section { 
+    width: 40%;
+    padding-left: 1%;
+    padding-top: 10%;
+  }
+  .character_imgs {  width : 45%;  }
+  #character_imgs {
+    width: 80%;
+    height : 80%;
+    margin-left: 10%;
+  }
 }
