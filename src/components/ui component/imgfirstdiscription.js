@@ -6,7 +6,6 @@ import axios from 'axios'
 const Imgfirstdiscription = () => {
 
     const [characters,set_charachters] = useState({});
-    let occupations = [];
        
     useEffect(() => {
         const fetchitems = async () => {
