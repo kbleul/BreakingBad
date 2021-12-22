@@ -7,6 +7,7 @@ body,section,div ,article,ul,li{
 }
 body {
   background: -moz-linear-gradient(black,green,black);
+  background: (black,green,black);
 }
 
 .logo{
@@ -111,6 +112,11 @@ margin-top: 8%;
     padding-left: 1%;
     padding-top: 10%;
   }
+  .character_imgs:hover,
+  .character_imgs:focus {
+  border: none;
+  width : 45%;
+}
   .character_imgs {  width : 45%;  }
   #character_imgs {
     width: 80%;
